@@ -1,8 +1,38 @@
 .App {
-  text-align: center;
+  height: 350px;
+  width: 400px;
+  background-color: #282c34;
+  align-items: center;
+  padding: 15px;
+  margin: 50px auto;
 }
 
-.App-logo {
+.todo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    font-family: bold;
+    border: 2px solid #2cec34;
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+    font-family: bold;
+    margin: 20px;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    margin: 20px;
+}
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +65,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
